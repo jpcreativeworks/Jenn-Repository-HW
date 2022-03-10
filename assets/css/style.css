@@ -63,7 +63,7 @@ p {
 }
 /* updated class name from float left for google optimization purposes and accessiblity */
 /* added unique identifier to the previous class for this discriptor element */
-.Search_Engine_Optimization .Social_Media_Marketing .left-float{
+.Search_Engine_Optimization .Social_Media_Marketing {
     margin-right: 25px;
     float: left;
 }
