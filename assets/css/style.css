@@ -63,9 +63,9 @@ p {
 }
 /* updated class name from float left for google optimization purposes and accessiblity */
 /* added unique identifier to the previous class for this discriptor element */
-.Search_Engine_Optimization .Social_Media_Marketing {
+.Search_Engine_Optimization .Social_Media_Marketing .left-float{
     margin-right: 25px;
-    position: relative;
+    float: left;
 }
 /* updated the class name from float right for google optimization and accessibility */
 .Online_Reputation_Management {
@@ -194,14 +194,14 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* updated the class footer with appropriate syntax for efficiancy */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-.footer h2 {
+/* updated the class footer with apprpirate syntax for efficiancy */
+footer h2 {
     font-size: 20px;
 }
