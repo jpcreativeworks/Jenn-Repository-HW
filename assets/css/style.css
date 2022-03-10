@@ -61,24 +61,27 @@ p {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
+/* updated class name from float left for google optimization purposes and accessiblity */
+/* added unique identifier to the previous class for this discriptor element */
+.Search_Engine_Optimization .Social_Media_Marketing {
     margin-right: 25px;
+    position: relative;
 }
-
-.float-right {
+/* updated the class name from float right for google optimization and accessibility */
+.Online_Reputation_Management {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+/* removed generic div and replaced with matching syntax */
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* changed benefit class to an aside syntax and blocked may remove */
+aside {
+    /* updated display to block in all within aside */
+    display: block;
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -136,7 +139,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* updated the class to an identifier for addtional clarification */
+/* undid that change manually, oops. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
