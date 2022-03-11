@@ -80,6 +80,26 @@ main {
     display: inline-block;
     margin-left: 20px;
 }
+/* updated the class to an identifier for addtional clarification */
+/* undid that change manually, oops. */
+.information {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    display: block; 
+}
+
+.information img {
+    max-height: 200px;
+}
+
+.information h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 /* changed benefit class to an aside syntax and blocked may remove */
 aside {
     /* updated display to block in all within aside */
@@ -141,62 +161,9 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
-/* updated the class to an identifier for addtional clarification */
-/* undid that change manually, oops. */
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-    display: block; 
-}
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 /* updated the class footer with appropriate syntax for efficiancy */
 footer {
     padding: 30px;
