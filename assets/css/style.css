@@ -63,15 +63,17 @@ p {
 }
 /* updated class name from float left for google optimization purposes and accessiblity */
 /* added unique identifier to the previous class for this discriptor element */
-.Search_Engine_Optimization .Social_Media_Marketing {
-    margin-right: 25px;
+/*  */
+.float-left {
     float: left;
+    margin-right: 25px;
 }
-/* updated the class name from float right for google optimization and accessibility */
-.Online_Reputation_Management {
+
+.float-right {
     float: right;
     margin-left: 25px;
 }
+
 /* removed generic div and replaced with matching syntax */
 main {
     width: 75%;
@@ -148,6 +150,7 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    display: block; 
 }
 
 .online-reputation-management {
