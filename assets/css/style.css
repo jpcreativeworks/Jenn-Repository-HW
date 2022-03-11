@@ -1,9 +1,10 @@
+/* META DATA */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* INTRO HEADING */
 body {
     background-color: #d9dcd6;
 }
@@ -52,7 +53,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* MAIN IMAGE */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,9 +62,10 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* CONENT */
 /* updated class name from float left for google optimization purposes and accessiblity */
 /* added unique identifier to the previous class for this discriptor element */
-/*  */
+/* went back through the code and replaced the float left and right classes and matching classes in index */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -82,6 +84,7 @@ main {
 }
 /* updated the class to an identifier for addtional clarification */
 /* undid that change manually, oops. */
+/* updated individual classes under one class information */
 .information {
     margin-bottom: 20px;
     padding: 50px;
@@ -91,15 +94,19 @@ main {
     color: #ffffff;
     display: block; 
 }
-
+/* deleted repetitive classes and repetitive descriptors */
+/* updated individual classes under one class information */
 .information img {
     max-height: 200px;
 }
-
+/* deleted repetitive classes and repetitive descriptors */
+/* updated individual classes under one class information */
 .information h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* SIDE CONTENT */
+/* deleted repetitive classes and repetitive descriptors */
 /* changed benefit class to an aside syntax and blocked may remove */
 aside {
     /* updated display to block in all within aside */
@@ -113,25 +120,26 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* condensed down articles and classed as the same name */
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-
+/* deleted repetitive classes and repetitive descriptors */
+/* changed benefit class to an aside syntax and blocked may remove */
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* deleted repetitive classes and repetitive descriptors */
+/* changed benefit class to an aside syntax and blocked may remove */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-
+/* deleted repetitive classes and repetitive descriptors */
+/* FOOTER */
 /* updated the class footer with appropriate syntax for efficiancy */
 footer {
     padding: 30px;
@@ -140,6 +148,7 @@ footer {
     text-align: center;
 }
 /* updated the class footer with apprpirate syntax for efficiancy */
+/* linked appropriate h4 with footer syntax */
 footer h4 {
     font-size: 20px;
 }
